@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.heading1{
+    color:rgb(183, 21, 21);
+    text-align: center;
+    margin-top: 10px;
+
+    font-family: Georgia;
+    font-size: xx-large; 
+}
+
+.heading2{
+    color:rgb(0, 64, 255);
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia;
+}
+
+.heading3{
+
+    color:rgb(29, 168, 55);
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia;
+}
+
+.instruction{
+
+    color:greenyellow;
+    text-align: center;
+}
+
+
+
+
+.image{
+
+    flex-direction: row;
+    display:flex;
+    padding: 20px;
+}
+
+.image figure{
+
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+  
+}
+
+.navbar li{
+    padding: 20px;
+}
+
+.message{
+    color: white;
+    text-align: center;
+}
+
+.but1{
+    
+    font-size: x-large;
+    padding: 5px;
+    margin-left: 45%;
+    background-color:inherit;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }  
+}
+
+input{
+    display: none;   
+}
+
+label{
+    border-radius: 1px;
+    border: 1px dashed #999;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+label:hover{
+    color: #23d5ab;
+    border: 1px dashed darkblue;
+}
